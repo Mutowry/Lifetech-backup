@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeTech - Login</title>
+    <link rel="stylesheet" href="admin_styles.css">
+</head>
+<body>
+    <div class="background-image"></div>
+
+    <div class="login-container">
+        <h2>LifeTech</h2>
+        <p>Enter your email address and password to access the <span id="role"><b>Admins</b></span> panel</p>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password">
+            </div>
+            <div class="form-group">
+                <div class="form-group">
+                    <label for="hospital">Select Hospital:</label>
+                    <select id="hospital" name="hospital" required>
+                        <option value="" disabled selected>Select Hospital</option>
+                        <option value="Harare Central Hospital">Harare Central Hospital</option>
+                        <option value="Parirenyatwa Hospital">Parirenyatwa Hospital</option>
+                        <option value="BMC">BMC</option>
+                        <option value="PSMI">PSMI</option>
+                        <option value="CIMAS">CIMAS</option>
+                    </select>
+                </div>
+                
+            </div>            
+            <button type="submit" class="btn">Admin Login</button>
+        </form>
+        <p class="forgot-password">Forgot Password?</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

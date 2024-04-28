@@ -1,0 +1,92 @@
+/* Custom Styles */
+
+body {
+    background-color: rgba(14, 14, 247, 0.199); /* Dark blueish with reduced opacity */
+}
+
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.5s;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-top: 20px; /* Add space between navbar and top */
+}
+.navbar.scroll {
+    background-color: rgba(14, 14, 247, 0.5); /* Dark blueish with reduced opacity */
+}
+.navbar-brand {
+    font-size: 54px; /* Huge font size */
+    color: rgb(0, 0, 0); /* Black text */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+}
+.content {
+    padding-top: 120px; /* Add space for the fixed navbar */
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.flex-container img {
+    max-width: 50%; /* Scale image to 75% of container width */
+    max-height: 400px; /* Set maximum height for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+.flex-container .text-container {
+    width: 45%; /* Text container takes 25% of the width */
+}
+
+/* Custom Styles */
+
+.login-containers {
+    margin-top: 50px; /* Add space between content and login containers */
+}
+
+.login-container {
+    border: 1px solid #ccbebe; /* Light border */
+    padding: 20px;
+    text-align: center;
+    height: 300px; /* Add a fixed height for all login containers */
+}
+
+.cartoon-img {
+    width: 100px; /* Adjust image size */
+    height: 100px; /* Adjust image size */
+    margin-bottom: 10px; /* Add space between image and description */
+}
+
+.separator {
+    margin-top: 20px; /* Add space between description and button */
+}
+
+.login-button {
+    background-color: rgba(14, 14, 247, 0.5); /* Background color with reduced opacity */
+    padding: 10px;
+}
+
+.login-button button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+}
+
+/* Add space between top and bottom containers */
+.spacer {
+    margin-bottom: 50px; /* Adjust as needed */
+}
+
+/* Footer Styles */
+.footer {
+    background-color: rgba(14, 14, 247, 0.5);
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin-bottom:0;
+}
+
